@@ -1,0 +1,16 @@
+.box{
+	background-color: rgb(249,192,80);
+	height: 60vh;
+}
+.z-index{
+	position: absolute;
+}
+.lamp1{
+	height: 95vh;
+}
+.l{
+	font-size: 600px;
+	font-family: Sacramento;
+	color: rgb(223,175,64);
+}
+

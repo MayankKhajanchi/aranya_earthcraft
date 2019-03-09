@@ -28,6 +28,10 @@ nav{
 	color: rgba(0,0,0,1);
 	font-weight: bolder;
 }
+.navbar-nav a:hover{
+	color: white;
+	text-decoration: none;
+}
 .navbar-brand{
 	color: white !important;
 	font-weight: 200;
