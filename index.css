@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Dawning+of+a+New+Day|Euphoria+Script|Lovers+Quarrel|Mr+De+Haviland');
+
+.green{
+	background-color: rgb(183,207,83);	
+}
+.musing{
+	/*font-family: 'Dancing Script', cursive;*/
+/*font-family: 'Mr De Haviland', cursive;*/
+/*font-family: 'Euphoria Script', cursive;*/
+font-family: 'Dawning of a New Day', cursive;
+/*font-family: 'Lovers Quarrel', cursive;*/
+	height: 100%;
+	width: 100%;
+}
+.musing h1{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.padding_none{
+	padding: 0px;
+}
+.bb{
+	border-bottom: 1px solid black;
+}
+.text-up{
+	text-transform: uppercase;
+}
