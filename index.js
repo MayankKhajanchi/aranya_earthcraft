@@ -8,21 +8,30 @@ console.log("heyo");
 //     console.log('Scroll down');
 // }
 // });
-var sub_categories = ["pendants","necklaces", "bangles"];
-var src = ["img1.png", "img2.png", "google.jpeg"];
+var sub_categories = ["Ear Rings","necklaces", "bangles", "heyo"];
+var src = ["google.jpeg", "google.jpeg", "google.jpeg", "google.jpeg"];
 var counter = 0;
 var text = document.getElementById("test");
 var img = document.getElementById("test_img");
-var inst = setInterval(change, 2000);
+var inst = setInterval(change, 4000);
 
 function change() {
   text.innerHTML = sub_categories[counter];
-  img.src = src[counter];
   counter++;
   if (counter >= sub_categories.length || counter >= src.length) {
     counter = 0;
   }
 }
+
+var $img = $("#test_img"),
+		i = 0,
+		speed = 200;
+window.setInterval(function() {
+  $img.fadeOut(speed, function() {
+    $img.attr("src", src[(++i % src.length)]);
+    $img.fadeIn(speed);
+  });
+}, 4000);
 
 // function myFunction() {
 //   setTimeout(function(){
