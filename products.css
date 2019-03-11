@@ -1,3 +1,9 @@
+body{
+	overflow: auto;
+}
+.full-screen{
+	height: 100vh;
+}
 .box{
 	background-color: rgb(249,192,80);
 	height: 60vh;
@@ -13,5 +19,13 @@
 	font-family: Sacramento;
 	color: rgb(223,175,64);
 	font-style: italic;
+}
+.carousel-img{
+	height: 400px;
+	width: 240px;
+}
+.test{
+	font-size: 30px;
+	font-weight: 200;
 }
 
