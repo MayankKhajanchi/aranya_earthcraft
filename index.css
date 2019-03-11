@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Dawning+of+a+New+Day|Euphoria+Script|Lovers+Quarrel|Mr+De+Haviland|Sacramento|Quicksand|Cantarell|Jura');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Dawning+of+a+New+Day|Euphoria+Script|Lovers+Quarrel|Mr+De+Haviland|Sacramento|Quicksand|Cantarell|Jura|Petit+Formal+Script');
 
 .green{
 	background-color: rgb(183,207,83);	
@@ -52,10 +52,9 @@ font-family: 'Dawning of a New Day', cursive;
 	color: grey;
 }
 .typo{
-	font-size: 600px;
-	font-family: Sacramento;
+	font-size: 500px;
+	font-family: 'Petit Formal Script';
 	color: rgb(223,175,64);
-	font-style: italic;
 }
 
 /*media queries*/

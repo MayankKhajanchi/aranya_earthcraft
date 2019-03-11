@@ -14,12 +14,7 @@ body{
 .lamp1{
 	height: 90vh;
 }
-.typo{
-	font-size: 600px;
-	font-family: Sacramento;
-	color: rgb(223,175,64);
-	font-style: italic;
-}
+
 .carousel-img{
 	width: 100%;
 	height: 80%;
