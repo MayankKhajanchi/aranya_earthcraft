@@ -51,3 +51,28 @@ font-family: 'Dawning of a New Day', cursive;
 .nav-dots .active{
 	color: grey;
 }
+.typo{
+	font-size: 600px;
+	font-family: Sacramento;
+	color: rgb(223,175,64);
+	font-style: italic;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 1440px){
+	.typo{
+		font-size: 400px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
