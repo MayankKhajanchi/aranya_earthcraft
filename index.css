@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Dawning+of+a+New+Day|Euphoria+Script|Lovers+Quarrel|Mr+De+Haviland|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Dawning+of+a+New+Day|Euphoria+Script|Lovers+Quarrel|Mr+De+Haviland|Sacramento|Quicksand|Cantarell|Jura');
 
 .green{
 	background-color: rgb(183,207,83);	
@@ -25,4 +25,28 @@ font-family: 'Dawning of a New Day', cursive;
 }
 .text-up{
 	text-transform: uppercase;
+}
+
+/*products page*/
+.border_top{
+	border-top: 2px solid grey;
+}
+.product-name{
+	font-family: Jura;
+	font-weight: lighter;
+	font-size: 30px;
+}
+.product-desc{
+	font-family: Jura;
+	text-align: justify;
+	font-weight: 100;
+	font-size: 13px;	
+}
+.img-1{
+	margin-right: 5px;
+}
+.nav-dots{
+	font-size: 8px;
+	padding-left: 30px;
+	margin-top: 100px;
 }
