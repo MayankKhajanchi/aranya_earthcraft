@@ -41,9 +41,6 @@ nav{
 	background: url(img1.png);
 	background-size: cover;
 }
-.img::after {
-	content: "hello";
-}
 .fa-circle{
 	font-size: 6px;
 	margin: 0 3px;
