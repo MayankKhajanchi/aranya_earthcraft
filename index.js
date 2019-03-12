@@ -1,13 +1,3 @@
-console.log("heyo");
-
-// $(window).bind('mousewheel', function(event) {
-// if (event.originalEvent.wheelDeltaY >= 200) {
-//     console.log('Scroll up');
-// }
-// else {
-//     console.log('Scroll down');
-// }
-// });
 var sub_categories = ["Ear Rings","necklaces", "bangles", "heyo"];
 var src = ["google.jpeg", "google.jpeg", "google.jpeg", "google.jpeg"];
 var counter = 0;
@@ -33,10 +23,4 @@ window.setInterval(function() {
   });
 }, 4000);
 
-// function myFunction() {
-//   setTimeout(function(){
-  	
-//   	for(var i=0; i<= sub_categories.length; i++);
-//   	document.getElementById("test").innerHTML = sub_categories[i];
-//   }, 3000);
-// }
+$('#fullpage').fullpage();
