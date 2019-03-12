@@ -37,9 +37,13 @@ nav{
 	font-weight: 200;
 	letter-spacing: 2px;
 }
-.side-section{
+.jewellery-side-section{
 	background: url(img1.png);
 	background-size: cover;
+}
+.homedecor-side-section{
+	background: url(img3.png);
+	background-size: cover;	
 }
 #test-img{
 	position:absolute;
