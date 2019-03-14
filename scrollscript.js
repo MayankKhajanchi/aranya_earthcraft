@@ -10,7 +10,6 @@ $(document).ready(function(){
 
 	var scene2 = new ScrollMagic.Scene({
 		triggerElement: '.up',
-		reverse: true
 	})
 	.setClassToggle('.up', 'animUp')
 	.addTo(controller);
@@ -26,5 +25,6 @@ $(document).ready(function(){
 	})
 	.setClassToggle('.down', 'animDown')
 	.addTo(controller);
+	
 });
 
