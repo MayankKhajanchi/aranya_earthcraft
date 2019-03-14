@@ -2,3 +2,4 @@ product-name (up) 	 = lamps
 product-desc (up) 	 = lower right text
 typo				 (right) = L
 carousel-img (down)	 = small image
+big-img 		 (right) = large image
