@@ -11,10 +11,9 @@ body{
 .z-index{
 	position: absolute;
 }
-.lamp1{
+.big-img{
 	height: 90vh;
 }
-
 .carousel-img{
 	width: 100%;
 }
