@@ -17,9 +17,12 @@ body{
 .carousel-img{
 	width: 100%;
 }
+.full-screen{
+	background-color: white;
+}
 
 /*scroll animation*/
-.right, .up, .righ2, .down{
+.right, .up, .right2, .down{
 	opacity: 0;
 }
 .right{
